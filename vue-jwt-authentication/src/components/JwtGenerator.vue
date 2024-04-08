@@ -51,6 +51,8 @@ export default {
         const payload = this.model.payloadData;
         const verify = this.model.verify;
 
+        // 유효한 JWT 생성 API를 가진 Backend 서버의 Endpoint로 변경
+
         axios.post('http://foo.bar.example.com/jwt_issued', {
           header: header,
           payload: payload,
