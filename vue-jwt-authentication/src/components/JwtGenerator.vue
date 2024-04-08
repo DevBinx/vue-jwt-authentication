@@ -51,7 +51,7 @@ export default {
         const payload = this.model.payloadData;
         const verify = this.model.verify;
 
-        axios.post('http://devopskim.nginxstore.kr:8089/jwt_issued', {
+        axios.post('http://foo.bar.example.com/jwt_issued', {
           header: header,
           payload: payload,
           verify: verify
