@@ -1,4 +1,4 @@
 # vue-jwt-authentication
-Vue.js를 통해 개발한 웹 JWT 토큰 발행 서비스입니다.
+This is a web JWT token issuance service developed using Vue.js.
 
-jwt.io 웹 사이트에서 영감을 받아 개발하게 되었습니다.
+It was inspired by the jwt.io website.
